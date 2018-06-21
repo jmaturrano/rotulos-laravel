@@ -13,23 +13,27 @@ Uso de DOMPDF para Laravel
 
 ## Instalación
 
-Verificar previamente tener instalado composer. Descargar el proyecto.
-
 - Instalar composer
 - Descargar el proyecto
 - Ejecutar el comando install para cargar las dependencias del proyecto
 
+	```
 	composer install
+	```
 
 - Crear su archivo .env y completar los accesos a su servidor
 
+	```
 	DB_DATABASE=homestead
 	DB_USERNAME=homestead
 	DB_PASSWORD=secret
+	```
 
 - Ejecutar el comando migrate y seed para cargar los datos en las tablas
 
+	```
 	php artisan migrate:refresh --seed
+	```
 
 La tabla productos se cargará a partir del archivo CSV ubicado en la dirección `/public/files/products.csv`. Cargar su archivo con la misma estructura de columnas.
 
