@@ -31,13 +31,13 @@ Verificar previamente tener instalado composer. Descargar el proyecto.
 
 	php artisan migrate:refresh --seed
 
-La tabla productos se cargará a partir del archivo CSV ubicado en la dirección /public/files/products.csv. Cargar su archivo con la misma estructura de columnas.
+La tabla productos se cargará a partir del archivo CSV ubicado en la dirección `/public/files/products.csv`. Cargar su archivo con la misma estructura de columnas.
 
 - Ejecute el proyecto y disfrute
 
+	```
 	php artisan serve
-
-    php artisan serve
+	```
 
 ## License
 
