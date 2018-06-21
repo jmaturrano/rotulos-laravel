@@ -63,6 +63,7 @@ class WebsiteController extends Controller
     }
 
     public function getDetailPDF(Request $request){
+
 		$rows = array(
 			['0'],
 			['0', 'C/U', '0'],
