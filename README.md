@@ -37,6 +37,8 @@ La tabla productos se cargará a partir del archivo CSV ubicado en la dirección
 
 	php artisan serve
 
+    php artisan serve
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
